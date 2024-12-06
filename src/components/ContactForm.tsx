@@ -23,10 +23,10 @@ export default function ContactForm() {
       };
 
       await emailjs.send(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        'service_b5v6ooa',
+        'template_eh5yush',
         templateParams,
-        'YOUR_PUBLIC_KEY'
+        '-Lp8Kuwf9qild4Aut'
       );
 
       toast.success('Message envoyé avec succès!');
